@@ -1,3 +1,5 @@
 jieba==0.42.1
 numpy==2.3.5
 matplotlib==3.10.7
+torch==2.2.2; python_version < "3.13"
+torchvision==0.17.2; python_version < "3.13"
