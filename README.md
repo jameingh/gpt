@@ -2,6 +2,7 @@
 
 ```bash
 python3.12 -m venv .venv
+.venv/bin/python -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
 .venv/bin/python -m pip install -r requirements.txt
 ```
 或
